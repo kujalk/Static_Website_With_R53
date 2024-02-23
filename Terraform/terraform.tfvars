@@ -1,0 +1,7 @@
+project             = "s3_website_terraform"
+root_domain_name    = "fufuvr.com"
+aws_route53_zone_id = "Z02320126L49WZV3TN63"
+bucket_name         = "fufuvrlibrary"
+root-object         = "index.html"
+price_class         = "PriceClass_100"
+web_folder          = "web/"
