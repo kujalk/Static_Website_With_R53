@@ -1,5 +1,5 @@
 # Architecture
-
+![Example Image](architecture.png)
 # Pre-Requisites
 
 1.	Terraform installed in your machine
