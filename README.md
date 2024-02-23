@@ -1,10 +1,15 @@
 # Architecture
 ![Example Image](architecture.png)
+
 # Pre-Requisites
 
 1.	Terraform installed in your machine
 2.	AWS CLI profile (To authenticate with AWS Cloud from Terraform. Better to use this approach rather than hardcoding the credentials directly in the file)
 
+# Things to Know
+
+- S3 RestAPI Endpoint is enabled instead of (Website Endpoint) to enable “Https” between CloudFront and S3. This provides end-to-end encryption, thus increases the security of the application. Also, bucket is configured as private meaning only users can access the bucket via CloudFront and not directly via S3 URL
+   
 # Resources created
 
 - S3 bucket
