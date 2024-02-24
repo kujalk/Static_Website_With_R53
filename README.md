@@ -36,11 +36,11 @@
 1.	Fill the terraform.tfvars
 2.	Update the profile information in provider.tf 
 (Leave the region to us-east-1 as the CloudFront always needs to be created in that region. It will serve the global users via the edge locations in all regions.
-3.	Issue “terraform init”
-4.	Issue “terraform plan”
+3.	Issue ```terraform init```
+4.	Issue ```terraform plan```
 5.	To create the resources ```terraform apply -auto-approve```
 6.	Leave 5-10 minutes after resource creation and access the domain name
-7.	To destroy the resources “terraform destroy -auto-approve”
+7.	To destroy the resources ```terraform destroy -auto-approve```
 
 # Developer 
 K.Janarthanan
