@@ -5,6 +5,7 @@
 
 1.	Terraform installed in your machine
 2.	AWS CLI profile (To authenticate with AWS Cloud from Terraform. Better to use this approach rather than hardcoding the credentials directly in the file)
+3.	R53 domain purchased via same account
 
 # Things to Know
 
